@@ -132,8 +132,8 @@ p {
   justify-content: center;
   align-items: center;
 
-  background: #4dd2ed;
-  color: rgba(54, 152, 217, 0.686);
+  background: #4d90ed;
+  color: rgba(255, 255, 255, 0.686);
   transition-property: scale(1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
