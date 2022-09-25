@@ -100,9 +100,9 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 6px 6px 5px 0px #01212768;
+  /* box-shadow: 6px 6px 5px 0px #01212768;
   -webkit-box-shadow: 6px 6px 5px 0px #4d354468;
-  -moz-box-shadow: 6px 6px 5px 0px #b2e3ec68;
+  -moz-box-shadow: 6px 6px 5px 0px #b2e3ec68; */
   border-radius: 5px;
 
   transition-property: scale(1);
