@@ -26,7 +26,7 @@ p {
 }
 
 .header {
-  background: linear-gradient(to right, #d9a7c7, #fffcdc);
+  background: #11b5d6;
   width: 100%;
   height: 50px;
   display: flex;
