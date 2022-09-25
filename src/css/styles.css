@@ -8,7 +8,7 @@ body {
 
 button {
   font-family: inherit;
-  height: 30px;
+  height: 40px;
   border: none;
   border-radius: 3px;
   margin: 0;
@@ -138,9 +138,9 @@ p {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  box-shadow: 6px 6px 5px 0px #62acb768;
-  -webkit-box-shadow: 6px 6px 5px 0px #9bc2d668;
-  -moz-box-shadow: 6px 6px 5px 0px #1c258a68;
+  box-shadow: 6px 6px 5px 0px #4d90ed;
+  -webkit-box-shadow: 6px 6px 5px 0px #4d90ed;
+  -moz-box-shadow: 6px 6px 5px 0px #4d90ed;
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
