@@ -27,12 +27,9 @@ async function loadMoreCards(searchValue) {
 async function mountData(searchValue) {
   try {
     const data = await getPhoto(searchValue, page);
-
     removeClass('visually-hidden');
-
     moreBtn.removeEventListener('click', moreBtnClbc);
     moreBtn.addEventListener('click', moreBtnClbc);
-
     if (data.hits.length === 0) {
       addClass('visually-hidden');
       Notiflix.Notify.failure(
@@ -90,7 +87,6 @@ function createGalleryMarkup(cardsArr) {
 function doLightbox() {
   const linkImg = document.querySelector('.link-img');
   linkImg.addEventListener('click', openModal);
-
   function openModal(event) {
     event.preventDefault();
   }
@@ -102,13 +98,9 @@ function doLightbox() {
 
 function onSubmit(event) {
   event.preventDefault();
-
   clearMarkup(galleryEl);
-
   searchValue = event.currentTarget[0].value;
-
   console.log('searchValue', searchValue);
-
   mountData(searchValue);
 }
 
