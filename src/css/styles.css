@@ -133,7 +133,7 @@ p {
   align-items: center;
 
   background: #b2e3ec68;
-  color: rgba(255, 255, 255, 0.686);
+  color: rgba(54, 152, 217, 0.686);
   transition-property: scale(1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
