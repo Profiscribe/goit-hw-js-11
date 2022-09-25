@@ -164,10 +164,10 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   box-shadow: 6px 6px 5px 0px #62acb768;
-  -webkit-box-shadow: 6px 6px 5px 0px #4d354468;
+  -webkit-box-shadow: 6px 6px 5px 0px #9bc2d668;
   -moz-box-shadow: 6px 6px 5px 0px #1c258a68;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   text-transform: uppercase;
 }
 
