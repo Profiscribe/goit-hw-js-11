@@ -95,7 +95,7 @@ p {
 }
 
 .photo-card {
-  width: 300px;
+  width: 350px;
   background: #4dd2ed;
   display: flex;
   flex-direction: column;
@@ -103,7 +103,7 @@ p {
   box-shadow: 6px 6px 5px 0px #b2e3ec68;
   -webkit-box-shadow: 6px 6px 5px 0px #4d354468;
   -moz-box-shadow: 6px 6px 5px 0px #b2e3ec68;
-  border-radius: 4px;
+  border-radius: 5px;
 
   transition-property: scale(1);
   transition-duration: 250ms;
@@ -117,8 +117,8 @@ p {
 
 .card-img {
   width: 100%;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .info {
@@ -152,7 +152,7 @@ p {
 }
 
 .load-more {
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
