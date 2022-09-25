@@ -126,31 +126,6 @@ p {
   padding: 5px;
 }
 
-.info-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
-
-.info-label {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  font-size: 13px;
-  color: #f1f6f6;
-}
-
-.info-span {
-  font-size: 12px;
-  margin-bottom: 10px;
-}
-
-.more-btn-box {
-  display: flex;
-  justify-content: center;
-}
-
 .load-more {
   margin-bottom: 13px;
   display: flex;
@@ -183,4 +158,28 @@ p {
 
 .more__svg {
   margin-left: 4px;
+}
+.info-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.info-label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #f1f6f6;
+}
+
+.info-span {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.more-btn-box {
+  display: flex;
+  justify-content: center;
 }
